@@ -11,4 +11,4 @@ console.log(title);
 
 await expect(page).toHaveURL('https://demo.nopcommerce.com/');
 
-})
+}
