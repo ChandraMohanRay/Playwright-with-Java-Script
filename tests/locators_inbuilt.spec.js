@@ -23,4 +23,3 @@ const name = await page.locator('//*[@class="oxd-userdropdown-name"]').textConte
 await expect(await page.getByText(name)).toBeVisible()
 console.log(name);
 await page.close()
-}
